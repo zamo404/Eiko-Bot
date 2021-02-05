@@ -16,10 +16,11 @@ module.exports = {
     .setFooter(message.author.username, message.author.displayAvatarURL)
     .setColor('RANDOM')
     .setTitle("Help Command")
-    .setImage("https://cdn.discordapp.com/attachments/776114986879549471/807229581962510366/image0.gif")
+    .setImage("https://cdn.discordapp.com/attachments/776114986879549471/807266767763275786/ezgif.com-video-to-gif3.gif")
   .setDescription(`[  Support  ](https://discord.gg/Z7JgEkGtak) - [  Invite  ](https://discord.com/api/oauth2/authorize?client_id=787948438700032030&permissions=1647705169&scope=bot)
 
 \`prefix\` : \`p.\`
+
 
 🎶__Music Command__
 \`filter(fi)\`  -  \`loop(l)\`
