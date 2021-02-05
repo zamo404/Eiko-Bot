@@ -42,7 +42,7 @@ Music
     return message.channel.send(helpEmbed).catch(console.error);
   }
 };
-Robot.WiLdERYesterday at 12:02 AM
+
 const { MessageEmbed } = require("discord.js");
 
   const prefix = ("p.");
