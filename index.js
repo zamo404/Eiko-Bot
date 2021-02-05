@@ -15,7 +15,12 @@ const escapeRegex = (str) => str.replace(/[.*+?^${}()|[\]\\]/g, `\\$&`);
 //this fires when the BOT STARTS DO NOT TOUCH
 client.on(`ready`, () => {	
 
-  
+setInterval(() => {
+console.log(`${client.user.username} ready! ,Users ${client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)}, Guilds ${client.guilds.cache.size}`);
+client.user.setActivity(`${PREFIX}help ,Users ${client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)}, Guilds ${client.guilds.cache.size}`);
+
+}, 15000);
+
    ///////////////////////////////
     ////////////IFCHEMPTY//////////
         //remove everything in between those 2 big comments if you want to disable that the bot leaves when ch. or queue gets empty!
