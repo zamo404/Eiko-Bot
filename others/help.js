@@ -16,7 +16,7 @@ module.exports = {
     .setFooter(message.author.username, message.author.displayAvatarURL)
     .setColor('RANDOM')
     .setTitle("Help Command")
-    .setImage("https://cdn.discordapp.com/attachments/791685515195056138/807725798705463327/ezgif.com-gif-maker.gif")
+    .setImage("https://cdn.discordapp.com/attachments/806536956737355788/810923065092472843/20-17-22-7d20.gif")
   .setDescription(`[  Support  ](https://discord.gg/Z7JgEkGtak) - [  Invite  ](https://discord.com/api/oauth2/authorize?client_id=787948438700032030&permissions=1647705169&scope=bot)
 
 \`prefix\` : \`p!\`
