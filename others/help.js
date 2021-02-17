@@ -21,7 +21,6 @@ module.exports = {
 
 \`prefix\` : \`p!\`
 
-
 🎶__Music Command__
 \`filter(fi)\`  -  \`loop(l)\`
 \`lyrics(ly)\`  -  \`np\`
