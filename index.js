@@ -5,7 +5,7 @@ const { join } = require(`path`);
 const { TOKEN, PREFIX} = require(`./config.json`);
 const figlet = require("figlet");
 const client = new Client({ disableMentions: `` , partials: ['MESSAGE', 'CHANNEL', 'REACTION'] });
-client.login('Nzg3OTQ4NDM4NzAwMDMyMDMw.X9cYKw.QKow-VdkGB6wnXztYW5QI7XWSf0');
+client.login('Nzg3OTQ4NDM4NzAwMDMyMDMw.X9cYKw.aY9yR_3kBJMcJ4D1SntflarNjOE');
 client.commands = new Collection();
 client.prefix = PREFIX;
 client.queue = new Map();
@@ -134,4 +134,4 @@ function delay(delayInms) {
  });
 }
 
-//Bot coded by Navaneeth K M!
+//Bot coded by freak!
