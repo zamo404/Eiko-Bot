@@ -17,7 +17,7 @@ module.exports = {
     .setColor('RANDOM')
     .setTitle("Help Command")
     .setImage("https://cdn.discordapp.com/attachments/806536956737355788/810923065092472843/20-17-22-7d20.gif")
-  .setDescription(`[  Support  ](https://discord.gg/Z7JgEkGtak) - [  Invite  ](https://discord.com/api/oauth2/authorize?client_id=787948438700032030&permissions=1647705169&scope=bot)
+  .setDescription(`[  Support  ](https://discord.gg/rSXquTjmU3) - [  Invite  ](https://discord.com/api/oauth2/authorize?client_id=912442458409943091&permissions=534761045968&scope=bot)
 
 \`prefix\` : \`p!\`
 
