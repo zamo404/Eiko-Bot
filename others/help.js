@@ -16,7 +16,7 @@ module.exports = {
     .setFooter(message.author.username, message.author.displayAvatarURL)
     .setColor('F2254C')
     .setTitle("Help Command")
-    .setImage("https://cdn.discordapp.com/attachments/806536956737355788/810923065092472843/20-17-22-7d20.gif")
+    .setImage("")
   .setDescription(`[  Support  ](https://discord.gg/rSXquTjmU3) - [  Invite  ](https://discord.com/api/oauth2/authorize?client_id=912442458409943091&permissions=534761045968&scope=bot)
 **Music Command**
 \`filter(fi)\`  -  \`loop(l)\`
