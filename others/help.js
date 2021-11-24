@@ -16,7 +16,7 @@ module.exports = {
     .setFooter(message.author.username, message.author.displayAvatarURL)
     .setColor('F2254C')
     .setTitle("Help Command")
-    .setImage("https://images.app.goo.gl/UxA2bxmYuWqrRzwq5")
+    .setImage("https://dribbble.com/shots/2087271-Retro-Radio/attachments/9125305?mode=media")
   .setDescription(`[  Support  ](https://discord.gg/rSXquTjmU3) - [  Invite  ](https://discord.com/api/oauth2/authorize?client_id=912442458409943091&permissions=534761045968&scope=bot)
 **Music Command**
 \`filter(fi)\`  -  \`loop(l)\`
