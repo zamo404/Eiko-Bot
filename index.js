@@ -14,7 +14,7 @@ const escapeRegex = (str) => str.replace(/[.*+?^${}()|[\]\\]/g, `\\$&`);
 
 //this fires when the BOT STARTS DO NOT TOUCH
 client.on("guildDelete", guild => {
-  let channel = client.channels.cache.get("912687016246931527");
+  let channel = client.channels.cache.get("913175396965556304");
   let embed = new MessageEmbed()
   .setColor("#FF0000")
   .setAuthor(client.user.username, client.user.avatarURL())
@@ -28,7 +28,7 @@ client.on("guildDelete", guild => {
 });
 
 client.on("guildCreate", guild => {
-  let channel = client.channels.cache.get("912687016246931527");
+  let channel = client.channels.cache.get("913175396965556304");
   let embed = new MessageEmbed()
   .setColor("60FF00")
   .setAuthor(client.user.username, client.user.avatarURL())
