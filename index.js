@@ -5,7 +5,7 @@ const { join } = require(`path`);
 const { TOKEN, PREFIX} = require(`./config.json`);
 const figlet = require("figlet");
 const client = new Client({ disableMentions: `` , partials: ['MESSAGE', 'CHANNEL', 'REACTION'] });
-client.login('OTEyNDQyNDU4NDA5OTQzMDkx.YZwAQg.HrJSyYzlRoXew0So1KaA0EQpPO4');
+client.login('OTEyNDQyNDU4NDA5OTQzMDkx.YZwAQg.7XuADKiViQPRPauEDfNUmMZXSu0');
 client.commands = new Collection();
 client.prefix = PREFIX;
 client.queue = new Map();
@@ -100,6 +100,23 @@ for (const file of commandFiles) {
   client.commands.set(command.name, command);
 }
 //COMMANDS //DO NOT TOUCH
+client.on(`message`, async (message) => {
+  if (message.author.bot) return;
+  
+  if(message.content === `${PREFIX}ping`)
+  return message.reply(":ping_pong: `" + client.ws.ping + "ms`")
+
+  if (message.content.toLowerCase() === `${PREFIX}uptime`) {
+    let days = Math.floor(client.uptime / 86400000);
+    let hours = Math.floor(client.uptime / 3600000) % 24;
+    let minutes = Math.floor(client.uptime / 60000) % 60;
+    let seconds = Math.floor(client.uptime / 1000) % 60;
+   return message.channel.send(`***__Music-Bot-Uptime:__***\n\`\`\`fix\n${days}d ${hours}h ${minutes}m ${seconds}s\n\`\`\``);
+}
+
+  if(message.content.includes(client.user.id)) {
+    message.reply(new Discord.MessageEmbed().setColor("#00ebaa").setAuthor(`${message.author.username}, My Prefix is ${PREFIX}, to get started; type ${PREFIX}help`, message.author.displayAvatarURL({dynamic:true})));
+  } 
 //command Handler DO NOT TOUCH
  const prefixRegex = new RegExp(`^(<@!?${client.user.id}>|${escapeRegex(PREFIX)})\\s*`);
  if (!prefixRegex.test(message.content)) return;
