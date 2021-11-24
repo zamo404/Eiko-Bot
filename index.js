@@ -100,9 +100,6 @@ for (const file of commandFiles) {
   client.commands.set(command.name, command);
 }
 //COMMANDS //DO NOT TOUCH
-  if(message.content.includes(client.user.id)) {
-    message.reply(new Discord.MessageEmbed().setColor("#00ebaa").setAuthor(`${message.author.username}, My Prefix is ${PREFIX}, to get started; type ${PREFIX}help`, message.author.displayAvatarURL({dynamic:true})));
-  } 
 //command Handler DO NOT TOUCH
  const prefixRegex = new RegExp(`^(<@!?${client.user.id}>|${escapeRegex(PREFIX)})\\s*`);
  if (!prefixRegex.test(message.content)) return;
