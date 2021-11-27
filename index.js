@@ -13,6 +13,34 @@ const cooldowns = new Collection();
 const escapeRegex = (str) => str.replace(/[.*+?^${}()|[\]\\]/g, `\\$&`);
 
 //this fires when the BOT STARTS DO NOT TOUCH
+client.on("guildDelete", guild => {
+  let channel = client.channels.cache.get("913774600331079692");
+  let embed = new MessageEmbed()
+  .setColor("#FF0000")
+  .setAuthor(client.user.username, client.user.avatarURL())
+  .setTitle( `❌ Left Server`)
+  .addField("🔠 **Server Name**", `${guild.name}`)
+  .addField("👑 **Server Owner**", `${guild.owner}`)
+  .addField("🆔 **Server Id**", `${guild.id}`)
+  .addField("👥 **Member Count**", `${guild.memberCount}`)
+  .setFooter(`${client.user.tag}`);
+  channel.send(embed);
+});
+
+client.on("guildCreate", guild => {
+  let channel = client.channels.cache.get("913774600331079692");
+  let embed = new MessageEmbed()
+  .setColor("60FF00")
+  .setAuthor(client.user.username, client.user.avatarURL())
+  .setTitle( `✔️ Join Server`)
+  .addField("🔠 **Server Name**", `${guild.name}`)
+  .addField("👑 **Server Owner**", `${guild.owner}`)
+  .addField("🆔 **Server Id**", `${guild.id}`)
+  .addField("👥 **Member Count**", `${guild.memberCount}`)
+  .setFooter(`${client.user.tag}`);
+  channel.send(embed);
+});
+
 client.on(`ready`, () => {	
 
 setInterval(() => {
