@@ -36,13 +36,13 @@ module.exports = {
  let button = new disbut.MessageButton()
         .setStyle('url')
         .setLabel('Invite')
-        .setEmoji('🏳️‍🌈')
+        .setEmoji('')
         .setURL('https://discord.com/oauth2/authorize?client_id=874800680269926420&permissions=8&scope=bot');////سيرفرك
 
  let button1 = new disbut.MessageButton()
         .setStyle('url')
         .setLabel('Support')
-        .setEmoji('🏳️‍🌈')
+        .setEmoji('')
         .setURL(`https://discord.gg/KyD4S6e2dH`);
 
     helpEmbed.setTimestamp();
