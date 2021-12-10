@@ -17,7 +17,7 @@ module.exports = {
     .setColor('F2254C')
     .setTitle("Help Command")
     .setImage("https://media.discordapp.net/attachments/913075841372651560/913901265036136508/d878028b1a05983d7cd5ec6a8b482fa0.gif")
-  .setDescription(`[  Support  ](https://discord.gg/rSXquTjmU3) - [  Invite  ](https://discord.com/api/oauth2/authorize?client_id=874800680269926420&permissions=534761045968&scope=bot)
+  .setDescription(`
 
 **Music Command**
 \`filter(fi)\`  -  \`loop(l)\`
@@ -32,10 +32,19 @@ module.exports = {
 
 `)
     
-       
+ const disbut = require("discord-buttons")
+ let button = new disbut.MessageButton()
+        .setStyle('url')
+        .setLabel('Invite')
+        .setURL('https://discord.com/oauth2/authorize?client_id=874800680269926420&permissions=8&scope=bot');////سيرفرك
+
+ let button1 = new disbut.MessageButton()
+        .setStyle('url')
+        .setLabel('Support')
+        .setURL(`https://discord.gg/KyD4S6e2dH`);
 
     helpEmbed.setTimestamp();
 
-    return message.channel.send(helpEmbed).catch(console.error);
+    return message.channel.send({ embed : helpEmbed , buttons : [button,button1] }).catch(console.error);
   }
 };
