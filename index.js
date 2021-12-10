@@ -11,7 +11,8 @@ client.prefix = PREFIX;
 client.queue = new Map();
 const cooldowns = new Collection();
 const escapeRegex = (str) => str.replace(/[.*+?^${}()|[\]\\]/g, `\\$&`);
-
+const but = require("discord-buttons")
+but(client)
 //this fires when the BOT STARTS DO NOT TOUCH
 client.on("guildDelete", guild => {
   let channel = client.channels.cache.get("913774600331079692");
