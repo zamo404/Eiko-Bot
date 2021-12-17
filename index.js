@@ -5,7 +5,7 @@ const { join } = require(`path`);
 const { TOKEN, PREFIX} = require(`./config.json`);
 const figlet = require("figlet");
 const client = new Client({ disableMentions: `` , partials: ['MESSAGE', 'CHANNEL', 'REACTION'] });
-client.login('ODc0ODAwNjgwMjY5OTI2NDIw.YRMPnw.u1eBjSburx43s-WT2Z294oGKXs4');
+client.login('ODc0ODAwNjgwMjY5OTI2NDIw.YRMPnw.M7nf9hhwzJhDAycymVCLLe57NDk');
 client.commands = new Collection();
 client.prefix = PREFIX;
 client.queue = new Map();
