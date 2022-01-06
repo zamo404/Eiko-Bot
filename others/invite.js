@@ -1,22 +1,38 @@
-const { Client, Collection, MessageEmbed } = require(`discord.js`);
-const {
-  PREFIX,
-  approveemoji,
-  denyemoji
-} = require(`../config.json`);
+const { MessageEmbed, MessageActionRow, MessageButton } = require("discord.js");
 
 module.exports = {
-  name: `invite`,
-  description: `Gives you an invite`,
-  aliases: ["add"],
-  cooldown: 3,
-  edesc: "Type this command to get an invite link for the Bot, thanks for every Invite",
-  execute(message, args, client) {
-    //react with approve emoji
-    message.react("✅");
-    //send the invite embed
-    message.reply(new MessageEmbed().setColor("BLACK").setTitle("Roxy Bot Invite ").setDescription("✔️ **[Click Here](https://discord.com/api/oauth2/authorize?client_id=922752221232369694&permissions=8&scope=bot) to invite the bot.**")
-    .setImage("")
-    .setFooter(""));
-  }
+    name: "invite",
+    category: "Information",
+    aliases: [ "addme" ],
+    description: "invite LavaMusic",
+    args: false,
+    usage: "",
+    permission: [],
+    owner: false,
+   execute: async (message, args, client, prefix) => {
+         
+         
+    const row = new MessageActionRow()
+			.addComponents(
+        new MessageButton()
+    .setLabel("Invite")
+    .setStyle("LINK")
+    .setURL(`https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=36768832&scope=applications.commands%20bot`),
+			new MessageButton()
+    .setLabel("GitHub")
+    .setStyle("LINK")
+    .setURL("https://github.com/Pranav6966/lavalink-musicbot-with-buttons.git"),
+    new MessageButton()
+    .setLabel("Support")
+    .setStyle("LINK")
+    .setURL("https://discord.gg/gfcv94hDhv")
+			);
+
+          const mainPage = new MessageEmbed()
+            .setAuthor('GEEKY WORLD', 'http://msurguy.github.io/gifloopcoder.com/example2.gif')
+            .setThumbnail('http://msurguy.github.io/gifloopcoder.com/example2.gif')
+             .setColor('#303236')
+            .addField('Invite the bot', `[Here](https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=36768832&scope=applications.commands%20bot)`, true)
+           message.channel.send({embeds: [mainPage], components: [row]})
+    }
 }
