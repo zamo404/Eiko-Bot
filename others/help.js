@@ -19,13 +19,17 @@ module.exports = {
     .setImage("https://discord.com/api/oauth2/authorize?client_id=922752221232369694&permissions=8&scope=bot")
   .setDescription(`
 
-**Everyone**
-\`help\` , \`about\` , \`invite\` , \`supoort\`
-**Music Command**
-\`play(p)\` , \`loop(l)\` , \`lyrics(ly)\` , \`pause\`
-\`pause\` , \`np\` , \`queue\` , \`radio\`
-\`remove\` , \`resume\` , \`search\`  -  \`shuffle\`
-\`skip\` , \`skipto\` , \`stop\` , \`volume\`
+Everyone
+\`help\` , \`about\` , \`invite\`
+Music
+\`play\` , \`skip\` , \`skipto\` , \`leave\`
+\`remove\` , \`queue\` , \`filter\` , \`loop\` 
+\`lyrics\` , \`radio\` , \`search\` , \`shuffle\`
+\`np\` , \`pause\` , \`resume\`
+Filter
+\`bassboost\` , \`8D\` , \`vaporwave\` , \`tremolo\`
+\`phaser\` , \`subboost\` , \`nightcore\` , \`pulsator\`
+\`vibrato\` , \`clear\` , \`surrounding\`
 
 
 `)
