@@ -20,7 +20,7 @@ module.exports = {
   .setDescription(`
 
 Everyone
-\`help\` , \`about\` , \`invite\`
+\`help\` , \`about\` , \`invite\` , \`prefix\`
 Music
 \`play\` , \`skip\` , \`skipto\` , \`leave\`
 \`remove\` , \`queue\` , \`filter\` , \`loop\` 
