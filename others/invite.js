@@ -24,7 +24,6 @@ module.exports = {
  const disbut = require("discord-buttons")
  let button = new disbut.MessageButton()
         .setStyle('url')
-        .setEmoji('928687274022043718')
         .setLabel('Invite')
         .setURL('https://discord.com/oauth2/authorize?client_id=874800680269926420&permissions=8&scope=bot');////سيرفرك
 
