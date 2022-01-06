@@ -1,28 +1,22 @@
 const { Client, Collection, MessageEmbed } = require(`discord.js`);
-const { 
-  PREFIX, 
+const {
+  PREFIX,
+  approveemoji,
+  denyemoji
 } = require(`../config.json`);
 
-  
-
-
 module.exports = {
-  name: "invite",
-  aliases: ["i"],
-  cooldown: 8,
-  description: "**all commands**",
-  execute(message) {
-    let commands = message.client.commands.array();
-
-    let helpEmbed = new MessageEmbed()
-    .setDescription(`
-[{Click here}](https://discord.com/api/oauth2/authorize?client_id=727556655818080457&permissions=8&scope=bot) **to invite the bot.**
-`)
-
-  
-   .setColor("RANDOM");
-   message.react("")
-    return message.channel.send(helpEmbed).catch(console.error);
-
+  name: `invite`,
+  description: `Gives you an invite`,
+  aliases: ["add"],
+  cooldown: 3,
+  edesc: "Type this command to get an invite link for the Bot, thanks for every Invite",
+  execute(message, args, client) {
+    //react with approve emoji
+    message.react("✅");
+    //send the invite embed
+    message.reply(new MessageEmbed().setColor("BLACK").setTitle("Roxy Bot Invite ").setDescription("✔️ **[Click Here](https://discord.com/api/oauth2/authorize?client_id=922752221232369694&permissions=8&scope=bot) to invite the bot.**")
+    .setImage("")
+    .setFooter(""));
   }
-};
+}
