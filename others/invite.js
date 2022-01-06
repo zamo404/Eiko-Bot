@@ -28,7 +28,7 @@ module.exports = {
         .setURL('https://discord.com/oauth2/authorize?client_id=874800680269926420&permissions=8&scope=bot');////سيرفرك
 
  let button1 = new disbut.MessageButton()
-        .setStyle('red')
+        .setStyle('url')
         .setLabel('Support')
         .setURL(`https://discord.gg/9MQNeSCWHa`);
 
