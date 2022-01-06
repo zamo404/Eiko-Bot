@@ -16,7 +16,7 @@ module.exports = {
     .setFooter(message.author.username, message.author.displayAvatarURL)
     .setColor('F2254C')
     .setTitle("Help Command")
-    .setImage("https://cdn.discordapp.com/attachments/922542879065382963/928671157144678440/20220104_204420.jpg")
+    .setImage("https://discord.com/api/oauth2/authorize?client_id=922752221232369694&permissions=8&scope=bot")
   .setDescription(`
 
 **Everyone**
