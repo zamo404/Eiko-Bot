@@ -4,8 +4,8 @@ const { MessageEmbed } = require("discord.js");
   
 
 module.exports = {
-  name: "invite",
-  aliases: ["h"],
+  name: "about",
+  aliases: ["abt"],
   description: "Display all commands and descriptions",
   cooldown: 3,
   edesc: "Type help to get a short preview of all Commands, Type help <COMMANDNAME> to get extended information about this one command!",
@@ -15,7 +15,7 @@ module.exports = {
     let helpEmbed = new MessageEmbed()
     .setFooter(message.author.username, message.author.displayAvatarURL)
     .setColor('BLACK')
-    .setTitle("Roxy Invite")
+    .setTitle("Roxy About")
     .setImage("")
   .setDescription(`
 ⭐️ **Name Bot** : <@922752221232369694>
