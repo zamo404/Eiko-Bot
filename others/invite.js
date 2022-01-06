@@ -16,9 +16,9 @@ module.exports = {
     .setFooter(message.author.username, message.author.displayAvatarURL)
     .setColor('F2254C')
     .setTitle("Roxy Invite")
-    .setImage("https://cdn.discordapp.com/attachments/922542879065382963/928671157144678440/20220104_204420.jpg")
+    .setImage("")
   .setDescription(`
-Click Here To Invite 👇🏻⭐️
+**Click Here To Invite** 👇🏻⭐️
 `)
     
  const disbut = require("discord-buttons")
@@ -30,7 +30,7 @@ Click Here To Invite 👇🏻⭐️
  let button1 = new disbut.MessageButton()
         .setStyle('url')
         .setLabel('Support')
-        .setURL(`https://discord.gg/KyD4S6e2dH`);
+        .setURL(`https://discord.gg/9MQNeSCWHa`);
 
     helpEmbed.setTimestamp();
 
