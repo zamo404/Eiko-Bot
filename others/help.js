@@ -16,18 +16,16 @@ module.exports = {
     .setFooter(message.author.username, message.author.displayAvatarURL)
     .setColor('F2254C')
     .setTitle("Help Command")
-    .setImage("https://media.discordapp.net/attachments/913075841372651560/913901265036136508/d878028b1a05983d7cd5ec6a8b482fa0.gif")
+    .setImage("https://cdn.discordapp.com/attachments/922542879065382963/928671157144678440/20220104_204420.jpg")
   .setDescription(`
 
+**Everyone**
+\`help\` , \`about\` , \`invite\` , \`supoort\`
 **Music Command**
-\`filter(fi)\`  -  \`loop(l)\`
-\`lyrics(ly)\`  -  \`np\`
-\`pause\`  -  \`play(p)\`
-\`queue(qu)\`  -  \`radio\`
-\`remove\`  -  \`resume(r)\`
-\`search\`  -  \`shuffle(mix)\`
-\`skip(s)\`  -  \`skipto(st)\`
-\`stop\`  -  \`volume(vol)\`
+\`play(p)\` , \`loop(l)\` , \`lyrics(ly)\` , \`pause\`
+\`pause\` , \`np\` , \`queue\` , \`radio\`
+\`remove\` , \`resume\` , \`search\`  -  \`shuffle\`
+\`skip\` , \`skipto\` , \`stop\` , \`volume\`
 
 
 `)
