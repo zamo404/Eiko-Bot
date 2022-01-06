@@ -14,26 +14,21 @@ module.exports = {
      
     let helpEmbed = new MessageEmbed()
     .setFooter(message.author.username, message.author.displayAvatarURL)
-    .setColor('F2254C')
+    .setColor('BLACK')
     .setTitle("Roxy Invite")
     .setImage("")
   .setDescription(`
-**Click Here To Invite** 👇🏻⭐️
+👇🏻⭐️ **Click Here To Invite**
 `)
     
  const disbut = require("discord-buttons")
  let button = new disbut.MessageButton()
         .setStyle('url')
         .setLabel('Invite')
-        .setURL('https://discord.com/oauth2/authorize?client_id=874800680269926420&permissions=8&scope=bot');////سيرفرك
-
- let button1 = new disbut.MessageButton()
-        .setStyle('url')
-        .setLabel('Support')
-        .setURL(`https://discord.gg/9MQNeSCWHa`);
+        .setURL('https://discord.com/api/oauth2/authorize?client_id=922752221232369694&permissions=8&scope=bot');////سيرفرك
 
     helpEmbed.setTimestamp();
 
-    return message.channel.send({ embed : helpEmbed , buttons : [button,button1] }).catch(console.error);
+    return message.channel.send({ embed : helpEmbed , buttons : [button] }).catch(console.error);
   }
 };
