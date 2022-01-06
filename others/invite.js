@@ -5,7 +5,7 @@ const { MessageEmbed } = require("discord.js");
 
 module.exports = {
   name: "invite",
-  aliases: ["h"],
+  aliases: ["inv"],
   description: "Display all commands and descriptions",
   cooldown: 3,
   edesc: "Type help to get a short preview of all Commands, Type help <COMMANDNAME> to get extended information about this one command!",
