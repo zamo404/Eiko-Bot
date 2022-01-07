@@ -25,7 +25,7 @@ module.exports = {
  let button = new disbut.MessageButton()
         .setStyle('url')
         .setLabel('Invite')
-        .setURL('https://discord.com/api/oauth2/authorize?client_id=922752221232369694&permissions=8&scope=bot');////سيرفرك
+        .setURL('https://discord.com/api/oauth2/authorize?client_id=922752221232369694&permissions=36703040&scope=bot');////سيرفرك
 
     helpEmbed.setTimestamp();
 
