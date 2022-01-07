@@ -21,6 +21,7 @@ module.exports = {
 
 Everyone
 \`help\` , \`invite\` , \`prefix\` , \`about\`
+\`ping\` , \`uptime\`
 Music
 \`play\` , \`skip\` , \`skipto\` , \`leave\`
 \`remove\` , \`queue\` , \`filter\` , \`loop\` 
