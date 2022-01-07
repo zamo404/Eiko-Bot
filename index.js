@@ -15,7 +15,7 @@ const but = require("discord-buttons")
 but(client)
 //this fires when the BOT STARTS DO NOT TOUCH
 client.on("guildDelete", guild => {
-  let channel = client.channels.cache.get("917831481164967986");
+  let channel = client.channels.cache.get("928894939050438696");
   let embed = new MessageEmbed()
   .setColor("#FF0000")
   .setAuthor(client.user.username, client.user.avatarURL())
@@ -29,7 +29,7 @@ client.on("guildDelete", guild => {
 });
 
 client.on("guildCreate", guild => {
-  let channel = client.channels.cache.get("917831481164967986");
+  let channel = client.channels.cache.get("928894939050438696");
   let embed = new MessageEmbed()
   .setColor("60FF00")
   .setAuthor(client.user.username, client.user.avatarURL())
