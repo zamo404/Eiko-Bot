@@ -46,7 +46,7 @@ client.on(`ready`, () => {
 
 setInterval(() => {
 console.log(`${client.user.username} ready! ,Users ${client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)}, Guilds ${client.guilds.cache.size}`);
-client.user.setActivity(`${PREFIX}help ,Users ${client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)}, Guilds ${client.guilds.cache.size}`);
+client.user.setActivity(`${PREFIX}help | ${client.guilds.cache.size} Guilds `);
 
 }, 15000);
 
