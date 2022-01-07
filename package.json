@@ -1,7 +1,7 @@
 {
-  "name": "carlo",
+  "name": "ano",
   "version": "1.0.0",
-  "description": "[ Support Server ](https://discord.gg/XdNmSPPDQ3)",
+  "description": "ano is here",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
