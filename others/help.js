@@ -38,12 +38,12 @@ Filter
  let button = new disbut.MessageButton()
         .setStyle('url')
         .setLabel('Invite')
-        .setURL('https://discord.com/api/oauth2/authorize?client_id=922752221232369694&permissions=8&scope=bot');////سيرفرك
+        .setURL('https://discord.com/api/oauth2/authorize?client_id=922752221232369694&permissions=36703040&scope=bot');////سيرفرك
 
  let button1 = new disbut.MessageButton()
         .setStyle('url')
         .setLabel('Support')
-        .setURL(`https://discord.gg/KyD4S6e2dH`);
+        .setURL(`https://discord.gg/9MQNeSCWHa`);
 
     helpEmbed.setTimestamp();
 
