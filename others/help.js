@@ -38,13 +38,11 @@ module.exports = {
  const disbut = require("discord-buttons")
  let button = new disbut.MessageButton()
         .setStyle('url')
-        .setEmoji(`⭐️`)
         .setLabel('Invite')
         .setURL('https://discord.com/api/oauth2/authorize?client_id=922752221232369694&permissions=36703040&scope=bot');////سيرفرك
 
  let button1 = new disbut.MessageButton()
         .setStyle('url')
-        .setEmoji(`🩸`)
         .setLabel('Support')
         .setURL(`https://discord.gg/9MQNeSCWHa`);
 
