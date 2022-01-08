@@ -19,15 +19,15 @@ module.exports = {
     .setImage("")
   .setDescription(`
 
-Everyone
+<:ano_18:923566386171752458> Everyone
 \`help\` , \`invite\` , \`prefix\` , \`botinfo\`
 \`ping\` , \`uptime\`
-Music
+<:ano_21:923566486692446279> Music
 \`play\` , \`skip\` , \`skipto\` , \`leave\`
 \`remove\` , \`queue\` , \`filter\` , \`loop\` 
 \`lyrics\` , \`radio\` , \`search\` , \`shuffle\`
 \`np\` , \`pause\` , \`resume\`
-Filter
+<:ano_16:923566352332116019> Filter
 \`bassboost\` , \`8D\` , \`vaporwave\` , \`tremolo\`
 \`phaser\` , \`subboost\` , \`nightcore\` , \`pulsator\`
 \`vibrato\` , \`clear\` , \`surrounding\`
@@ -38,12 +38,13 @@ Filter
  const disbut = require("discord-buttons")
  let button = new disbut.MessageButton()
         .setStyle('url')
-        .setEmoji(`929415853185851422`)
+        .setEmoji(`⭐️`)
         .setLabel('Invite')
         .setURL('https://discord.com/api/oauth2/authorize?client_id=922752221232369694&permissions=36703040&scope=bot');////سيرفرك
 
  let button1 = new disbut.MessageButton()
         .setStyle('url')
+        .setEmoji(`🩸`)
         .setLabel('Support')
         .setURL(`https://discord.gg/9MQNeSCWHa`);
 
