@@ -18,16 +18,15 @@ module.exports = {
     .setTitle("Help Command")
     .setImage("")
   .setDescription(`
-
-<:ano_29:929806530579136524> Everyone
+ Everyone
 \`help\` , \`invite\` , \`prefix\` , \`ping\` 
 \`uptime\` , \`botinfo\` , \`serverinfo\`
-<:ano_30:929807519348564040> Music
+ Music
 \`play\` , \`skip\` , \`skipto\` , \`leave\`
 \`remove\` , \`queue\` , \`filter\` , \`loop\` 
 \`lyrics\` , \`radio\` , \`search\` , \`shuffle\`
 \`np\` , \`pause\` , \`resume\`
-<:ano_27:929806498173943836> Filter
+ Filter
 \`bassboost\` , \`8D\` , \`vaporwave\` , \`tremolo\`
 \`phaser\` , \`subboost\` , \`nightcore\` , \`pulsator\`
 \`vibrato\` , \`clear\` , \`surrounding\`
