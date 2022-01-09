@@ -19,15 +19,15 @@ module.exports = {
     .setImage("")
   .setDescription(`
 
-<:ano_29:929794345241038849> Everyone
+<:ano_29:929806530579136524> Everyone
 \`help\` , \`invite\` , \`prefix\` , \`ping\` 
 \`uptime\` , \`botinfo\` , \`serverinfo\`
-<:emoji_29:929794143885078539> Music
+<:ano_30:929807519348564040> Music
 \`play\` , \`skip\` , \`skipto\` , \`leave\`
 \`remove\` , \`queue\` , \`filter\` , \`loop\` 
 \`lyrics\` , \`radio\` , \`search\` , \`shuffle\`
 \`np\` , \`pause\` , \`resume\`
-<:ano_19:923566404999991316> Filter
+<:ano_27:929806498173943836> Filter
 \`bassboost\` , \`8D\` , \`vaporwave\` , \`tremolo\`
 \`phaser\` , \`subboost\` , \`nightcore\` , \`pulsator\`
 \`vibrato\` , \`clear\` , \`surrounding\`
