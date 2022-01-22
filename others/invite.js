@@ -15,17 +15,17 @@ module.exports = {
     let helpEmbed = new MessageEmbed()
     .setFooter(message.author.username, message.author.displayAvatarURL)
     .setColor('BLACK')
-    .setTitle("Roxy Invite")
+    .setTitle("Eiko Invite")
     .setImage("")
   .setDescription(`
-👇🏻⭐️ **Click Here To Invite**
+ **Click Here To Invite**
 `)
     
  const disbut = require("discord-buttons")
  let button = new disbut.MessageButton()
         .setStyle('url')
         .setLabel('Invite')
-        .setURL('https://discord.com/api/oauth2/authorize?client_id=922752221232369694&permissions=36703040&scope=bot');////سيرفرك
+        .setURL('https://discord.com/api/oauth2/authorize?client_id=917858292699627551&permissions=8&scope=bot');////سيرفرك
 
     helpEmbed.setTimestamp();
 
