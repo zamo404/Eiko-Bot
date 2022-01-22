@@ -38,12 +38,12 @@ module.exports = {
  let button = new disbut.MessageButton()
         .setStyle('url')
         .setLabel('Invite')
-        .setURL('https://discord.com/api/oauth2/authorize?client_id=922752221232369694&permissions=36703040&scope=bot');////سيرفرك
+        .setURL('https://discord.com/api/oauth2/authorize?client_id=917858292699627551&permissions=8&scope=bot');////سيرفرك
 
  let button1 = new disbut.MessageButton()
         .setStyle('url')
         .setLabel('Support')
-        .setURL(`https://discord.gg/9MQNeSCWHa`);
+        .setURL(`https://discord.gg/Kqc5VHdRzu`);
 
     helpEmbed.setTimestamp();
 
