@@ -18,16 +18,18 @@ module.exports = {
     .setTitle("Roxy About")
     .setImage("")
   .setDescription(`
-⭐️ **Name Bot** : <@922752221232369694>
 
-••••••
+<:ano_7:923558660850999356> **__My Name__** : <@917858292699627551>
 
-🛠 **Creators** : <@882937556101128193>
+<:ano_33:932184015480447026> **__Owner Bot__** : <@832437049935527936>
 
-••••••
+<:ano_4:923558596833341481> **__Admin Bot__** : <@807236065001865217>
 
-⚡️ **Languages** : **JavaScript**
+⭐️ **__Servers__** : \`${client.guilds.cache.size}\`
 
+🗂 **__Channels__** : \`${client.channels.cache.size}\`
+
+🏓 **__My Ping__** : \`${client.ws.ping}\`
 
 `)
     
@@ -35,7 +37,7 @@ module.exports = {
  let button = new disbut.MessageButton()
         .setStyle('url')
         .setLabel('Invite')
-        .setURL('https://discord.com/api/oauth2/authorize?client_id=922752221232369694&permissions=36703040&scope=bot');////سيرفرك
+        .setURL('https://discord.com/api/oauth2/authorize?client_id=917858292699627551&permissions=8&scope=bot');////سيرفرك
 
     helpEmbed.setTimestamp();
 
