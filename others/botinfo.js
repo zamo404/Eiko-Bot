@@ -15,7 +15,7 @@ module.exports = {
     let helpEmbed = new MessageEmbed()
     .setFooter(message.author.username, message.author.displayAvatarURL)
     .setColor('BLACK')
-    .setTitle("Roxy About")
+    .setTitle("Eiko About")
     .setImage("")
   .setDescription(`
 
