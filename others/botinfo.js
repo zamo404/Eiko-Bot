@@ -25,11 +25,11 @@ module.exports = {
 
 <:ano_4:923558596833341481> **__Admin Bot__** : <@807236065001865217>
 
-⭐️ **__Servers__** : \`${client.guilds.cache.size}\`
+⭐️ **__Servers__** : ${client.guilds.cache.size}
 
-🗂 **__Channels__** : \`${client.channels.cache.size}\`
+🗂 **__Channels__** : ${client.channels.cache.size}
 
-🏓 **__My Ping__** : \`${client.ws.ping}\`
+🏓 **__My Ping__** : ${client.ws.ping}
 
 `)
     
