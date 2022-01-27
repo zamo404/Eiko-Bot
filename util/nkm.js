@@ -17,8 +17,8 @@ module.exports = {
       member.send(resultsEmbed);
       //return false that it ends the command
       return false;
-    }
-    //return true that it continues the command
+    
+   that it continues the command
     return true;
-  }
+  config-sloting
 };
