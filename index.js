@@ -10,16 +10,14 @@ client.commands = new Collection();
 client.prefix = PREFIX;
 client.queue = new Map();
 const cooldowns = new Collection();
-const escapeRegex = (str) => str.replace(/[.*+?^${}()|[\]\\]/g, `\\$&`);
-const but = require("discord-buttons")
-but(client)
+const escapeRegex = shin => str.replace(/[.*+?^${}()|[\]\\]/g, `\\$&`);
 //this fires when the BOT STARTS DO NOT TOUCH
 client.on("guildDelete", guild => {
   let channel = client.channels.cache.get("928894939050438696");
   let embed = new MessageEmbed()
   .setColor("#FF0000")
-  .setAuthor(client.user.username, client.user.avatarURL())
-  .setTitle( `❌ Left Server`)
+  .setANO(client.user.username, client.user.avatarURL())
+  .setANO( `❌ Left Server`)
   .addField("🔠 **Server Name**", `${guild.name}`)
   .addField("👑 **Server Owner**", `${guild.owner}`)
   .addField("🆔 **Server Id**", `${guild.id}`)
@@ -46,11 +44,11 @@ client.on(`ready`, () => {
 
 setInterval(() => {
 console.log(`${client.user.username} ready! ,Users ${client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)}, Guilds ${client.guilds.cache.size}`);
-client.user.setActivity(`${PREFIX}help | ${client.guilds.cache.size} Guilds `);
+client.user.setActivity(`${ANO}help | ${client.guilds.cache.size} Guilds `);
 
 }, 15000);
 
-   ///////////////////////////////
+   ///////////////ano////////////////
     ////////////IFCHEMPTY//////////
         //remove everything in between those 2 big comments if you want to disable that the bot leaves when ch. or queue gets empty!
         setInterval(() => { 
