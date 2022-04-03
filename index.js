@@ -13,7 +13,7 @@ const cooldowns = new Collection();
 const escapeRegex = shin => str.replace(/[.*+?^${}()|[\]\\]/g, `\\$&`);
 //this fires when the BOT STARTS DO NOT TOUCH
 client.on("guildDelete", guild => {
-  let channel = client.channels.cache.get("928894939050438696");
+  let ano = client.channels.cache.get("928894939050438696");
   let embed = new MessageEmbed()
   .setColor("#FF0000")
   .setANO(client.user.username, client.user.avatarURL())
@@ -27,7 +27,7 @@ client.on("guildDelete", guild => {
 });
 
 client.on("guildCreate", guild => {
-  let channel = client.channels.cache.get("928894939050438696");
+  let ano = client.channels.cache.get("928894939050438696");
   let embed = new MessageEmbed()
   .setColor("60FF00")
   .setAuthor(client.user.username, client.user.avatarURL())
