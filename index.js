@@ -5,7 +5,7 @@ const { join } = require(`path`);
 const { TOKEN, PREFIX} = require(`./config.json`);
 const figlet = require("figlet");
 const client = new Client({ disableMentions: `` , partials: ['MESSAGE', 'CHANNEL', 'REACTION'] });
-client.login('OTE3ODU4MjkyNjk5NjI3NTUx.Ya-0JQ.08JBdZKfr5LU_PYQepm-RtteaDA');
+client.login('OTgxNjk1OTQ0NTUyNzU1MjUw.GumE4z.oPWOs9aalN50qWD2PyYFpNKnRORVbo1vZMLuU4');
 client.commands = new Collection();
 client.prefix = PREFIX;
 client.queue = new Map();
@@ -44,11 +44,11 @@ client.on(`ready`, () => {
 
 setInterval(() => {
 console.log(`${client.user.username} ready! ,Users ${client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)}, Guilds ${client.guilds.cache.size}`);
-client.user.setActivity(`${ANO}help | ${client.guilds.cache.size} Guilds `);
+client.user.setActivity(`${ZAMO}help | ${client.guilds.cache.size} Guilds `);
 
 }, 15000);
 
-   ///////////////ano////////////////
+   ///////////////zamo////////////////
     ////////////IFCHEMPTY//////////
         //remove everything in between those 2 big comments if you want to disable that the bot leaves when ch. or queue gets empty!
         setInterval(() => { 
@@ -161,4 +161,4 @@ function delay(delayInms) {
  });
 }
 
-//Bot coded by freak!
+//Bot coded by zamo!
