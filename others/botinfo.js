@@ -1,6 +1,6 @@
 const { MessageEmbed } = require("discord.js");
 
-  const prefix = ("-");
+  const prefix = (".");
   
 
 module.exports = {
@@ -19,19 +19,20 @@ module.exports = {
     .setImage("")
   .setDescription(`
 
-<:ano_7:923558660850999356> **__My Name__** : <@917858292699627551>
+🌐 **__My Name__** : Eiko Bot
 
-<:ano_33:932184015480447026> **__Owner Bot__** : <@832437049935527936>
+👨‍💻 **__Owner Bot__** : <@832653324897091637>
 
-<:ano_4:923558596833341481> **__Admin Bot__** : <@807236065001865217>
+👨‍✈️ **__Admin Bot__** : <@842055195710193694>
 
+👩‍✈️ **__Admin Bot__** : <@922216227508715631>
 `)
     
  const disbut = require("discord-buttons")
  let button = new disbut.MessageButton()
         .setStyle('url')
         .setLabel('Invite')
-        .setURL('https://discord.com/api/oauth2/authorize?client_id=917858292699627551&permissions=8&scope=bot');////سيرفرك
+        .setURL('https://discord.com/api/oauth2/authorize?client_id=981695944552755250&permissions=8&scope=bot');////server
 
     helpEmbed.setTimestamp();
 
