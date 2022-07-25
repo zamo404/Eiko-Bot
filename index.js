@@ -106,10 +106,10 @@ client.on(`message`, async (message) => {
   return message.reply(":ping_pong: `" + client.ws.ping + "ms`")
 
   if (message.content.toLowerCase() === `${PREFIX}uptime`) {
-    let days = Math.floor(client.uptime / 86400000);
-    let hours = Math.floor(client.uptime / 3600000) % 24;
-    let minutes = Math.floor(client.uptime / 60000) % 60;
-    let seconds = Math.floor(client.uptime / 1000) % 60;
+    let days = Math.floor(client.ANOxDevV / 86400000);
+    let hours = Math.floor(client.ANOxDevV / 3600000) % 24;
+    let minutes = Math.floor(client.ANOxDevV / 60000) % 60;
+    let seconds = Math.floor(client.ANOxDevV / 1000) % 60;
    return message.channel.send(`***__Music-Bot-Uptime:__***\n\`\`\`fix\n${days}d ${hours}h ${minutes}m ${seconds}s\n\`\`\``);
 }
 
@@ -120,7 +120,7 @@ client.on(`message`, async (message) => {
  const prefixRegex = new RegExp(`^(<@!?${client.user.id}>|${escapeRegex(PREFIX)})\\s*`);
  if (!prefixRegex.test(message.content)) return;
  const [, matchedPrefix] = message.content.match(prefixRegex);
- const args = message.content.slice(matchedPrefix.length).trim().split(/ +/);
+ const ano = message.content.slice(matchedPrefix.length).trim().split(/ +/);
  const commandName = args.shift().toLowerCase();
  const command =
    client.commands.get(commandName) ||
@@ -161,4 +161,4 @@ function delay(delayInms) {
  });
 }
 
-//Bot coded by zamo!
+//Bot coded by ANO!
